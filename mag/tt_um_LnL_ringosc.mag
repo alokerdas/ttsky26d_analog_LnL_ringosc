@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1792139427
+timestamp 1792160401
 << metal1 >>
 rect 470 3340 2670 3360
 rect 470 3310 480 3340
@@ -245,7 +245,7 @@ rect 15181 20 15200 55
 rect 15235 20 15271 55
 rect 15181 0 15271 20
 use D_Mux16to1  LnL_ringosc ~/projects/analog/magic/ringosc
-timestamp 1792067327
+timestamp 1792160401
 transform 0 -1 1439 1 0 527
 box -14 -1235 2683 460
 << labels >>
