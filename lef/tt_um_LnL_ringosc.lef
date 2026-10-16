@@ -34,6 +34,8 @@ MACRO tt_um_LnL_ringosc
   PIN ua[0]
     DIRECTION INOUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.315000 ;
+    ANTENNADIFFAREA 0.429000 ;
     PORT
       LAYER met4 ;
         RECT 151.810 0.000 152.710 1.000 ;
@@ -98,6 +100,7 @@ MACRO tt_um_LnL_ringosc
   PIN ui_in[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.159000 ;
     PORT
       LAYER met4 ;
         RECT 138.310 224.760 138.610 225.760 ;
@@ -106,6 +109,7 @@ MACRO tt_um_LnL_ringosc
   PIN ui_in[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.159000 ;
     PORT
       LAYER met4 ;
         RECT 135.550 224.760 135.850 225.760 ;
@@ -114,6 +118,7 @@ MACRO tt_um_LnL_ringosc
   PIN ui_in[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.159000 ;
     PORT
       LAYER met4 ;
         RECT 132.790 224.760 133.090 225.760 ;
@@ -122,6 +127,7 @@ MACRO tt_um_LnL_ringosc
   PIN ui_in[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.159000 ;
     PORT
       LAYER met4 ;
         RECT 130.030 224.760 130.330 225.760 ;
@@ -130,6 +136,7 @@ MACRO tt_um_LnL_ringosc
   PIN ui_in[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.636000 ;
     PORT
       LAYER met4 ;
         RECT 127.270 224.760 127.570 225.760 ;
@@ -431,6 +438,24 @@ MACRO tt_um_LnL_ringosc
         RECT 4.000 5.000 6.000 220.760 ;
     END
   END VGND
+  OBS
+      LAYER nwell ;
+        RECT 10.590 6.170 26.340 31.160 ;
+      LAYER li1 ;
+        RECT 10.180 5.680 26.390 31.165 ;
+      LAYER met1 ;
+        RECT 1.400 5.130 26.740 33.600 ;
+      LAYER met2 ;
+        RECT 1.450 5.300 138.600 222.800 ;
+      LAYER met3 ;
+        RECT 1.400 0.150 152.450 223.000 ;
+      LAYER met4 ;
+        RECT 127.970 224.360 129.630 225.750 ;
+        RECT 130.730 224.360 132.390 225.750 ;
+        RECT 133.490 224.360 135.150 225.750 ;
+        RECT 136.250 224.360 137.910 225.750 ;
+        RECT 127.150 218.100 138.600 224.360 ;
+  END
 END tt_um_LnL_ringosc
 END LIBRARY
 
