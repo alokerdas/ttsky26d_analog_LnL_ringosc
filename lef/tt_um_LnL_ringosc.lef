@@ -443,7 +443,7 @@ MACRO tt_um_LnL_ringosc
       LAYER li1 ;
         RECT 9.965 5.300 23.740 32.550 ;
       LAYER met1 ;
-        RECT 1.400 5.150 23.895 33.600 ;
+        RECT 1.400 5.150 23.895 35.135 ;
       LAYER met2 ;
         RECT 1.450 5.300 138.600 222.800 ;
       LAYER met3 ;
