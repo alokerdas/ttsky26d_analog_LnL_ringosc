@@ -439,11 +439,11 @@ MACRO tt_um_LnL_ringosc
   END VGND
   OBS
       LAYER nwell ;
-        RECT 9.865 5.200 23.895 30.830 ;
+        RECT 9.865 4.740 23.895 30.830 ;
       LAYER li1 ;
-        RECT 9.965 5.300 23.740 32.550 ;
+        RECT 9.965 4.845 23.755 32.550 ;
       LAYER met1 ;
-        RECT 1.400 5.150 23.895 35.135 ;
+        RECT 1.400 4.690 23.895 35.135 ;
       LAYER met2 ;
         RECT 1.450 5.300 138.600 222.800 ;
       LAYER met3 ;

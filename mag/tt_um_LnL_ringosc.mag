@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1792347013
+timestamp 1792348805
 << viali >>
 rect 2310 5230 2350 5270
 rect 2310 4130 2350 4170
@@ -286,9 +286,9 @@ rect 30362 40 30400 110
 rect 30470 40 30542 110
 rect 30362 0 30542 40
 use D_Mux16to1  LnL_ringosc ~/projects/analog/magic/ringosc
-timestamp 1792346877
+timestamp 1792348805
 transform 0 -1 1447 1 0 3146
-box -2116 -3332 3402 -513
+box -2208 -3332 3402 -513
 << labels >>
 flabel metal4 s 28766 44952 28826 45152 0 FreeSans 480 90 0 0 clk
 port 0 nsew signal input
