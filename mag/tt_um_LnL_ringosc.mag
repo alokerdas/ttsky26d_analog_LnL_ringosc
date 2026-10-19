@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1792415499
+timestamp 1792424222
 << viali >>
 rect 2310 5230 2350 5270
 rect 2310 4130 2350 4170
@@ -286,7 +286,7 @@ rect 30362 40 30400 110
 rect 30470 40 30542 110
 rect 30362 0 30542 40
 use D_Mux16to1  LnL_ringosc ~/projects/analog/magic/ringosc
-timestamp 1792415415
+timestamp 1792424222
 transform 0 -1 1447 1 0 3146
 box -2208 -3332 3402 -513
 << labels >>
