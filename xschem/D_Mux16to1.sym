@@ -1,0 +1,31 @@
+v {xschem version=3.4.8RC file_version=1.3}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+spectre_format="@name ( @pinlist ) @symname"
+template="name=x1"
+}
+V {}
+S {}
+F {}
+E {}
+L 4 30 -220 50 -220 {}
+L 4 30 -180 50 -180 {}
+L 4 30 -80 50 -80 {}
+L 4 30 -140 50 -140 {}
+L 4 30 -110 50 -110 {}
+L 4 210 -150 230 -150 {}
+B 5 27.5 -222.5 32.5 -217.5 {name=bit0 dir=in}
+B 5 27.5 -182.5 32.5 -177.5 {name=bit1 dir=in}
+B 5 27.5 -82.5 32.5 -77.5 {name=enable dir=in}
+B 5 27.5 -142.5 32.5 -137.5 {name=bit2 dir=in}
+B 5 27.5 -112.5 32.5 -107.5 {name=bit3 dir=in}
+B 5 227.5 -152.5 232.5 -147.5 {name=fout dir=out}
+P 4 5 210 -240 50 -240 50 -60 210 -60 210 -240 {}
+T {D_Mux16to1} 97 -156 0 0 0.3 0.3 {}
+T {bit0} 55 -224 0 0 0.2 0.2 {}
+T {bit1} 55 -184 0 0 0.2 0.2 {}
+T {enable} 55 -84 0 0 0.2 0.2 {}
+T {bit2} 55 -144 0 0 0.2 0.2 {}
+T {bit3} 55 -114 0 0 0.2 0.2 {}
+T {fout} 205 -154 0 1 0.2 0.2 {}
