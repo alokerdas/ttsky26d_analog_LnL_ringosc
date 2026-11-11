@@ -934,9 +934,9 @@ rect 23370 0 23550 200
 rect 27230 190 27420 3930
 rect 27234 0 27420 190
 use bufamp  bufamp_0 ../../analog/magic
-timestamp 1794386235
+timestamp 1794408150
 transform 1 0 27344 0 1 580
-box -1720 -200 -178 14638
+box -1720 -200 -170 14638
 use D_Mux16to1  ringosc ../../analog/magic/ringosc
 timestamp 1792561405
 transform 0 -1 21546 1 0 39728
