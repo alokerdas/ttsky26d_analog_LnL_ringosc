@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1794381436
+timestamp 1794411081
 << metal1 >>
 rect 25540 38450 25630 38460
 rect 25540 38390 25560 38450
@@ -933,7 +933,7 @@ rect 19506 0 19686 200
 rect 23370 0 23550 200
 rect 27230 190 27420 3930
 rect 27234 0 27420 190
-use bufamp  bufamp_0 ../../analog/magic
+use bufamp  buffer ../../analog/magic
 timestamp 1794408150
 transform 1 0 27344 0 1 580
 box -1720 -200 -170 14638
@@ -1050,6 +1050,7 @@ flabel metal4 19250 1000 19650 44152 1 FreeSans 400 0 0 0 VGND
 port 52 nsew ground bidirectional
 flabel metal4 18570 1000 18970 44152 1 FreeSans 400 0 0 0 VDPWR
 port 51 nsew power bidirectional
+rlabel metal1 25556 36986 25608 37022 1 foutbuf
 << properties >>
 string FIXED_BBOX 0 0 29072 45152
 << end >>
