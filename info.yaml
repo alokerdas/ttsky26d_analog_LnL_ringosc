@@ -56,11 +56,11 @@ pinout:
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
   ua[0]: "freq_out"
-  ua[1]: "Not used"
-  ua[2]: "Not used"
-  ua[3]: "Not used"
-  ua[4]: "Not used"
-  ua[5]: "Not used"
+  ua[1]: ""
+  ua[2]: ""
+  ua[3]: ""
+  ua[4]: ""
+  ua[5]: ""
 
 # Do not change!
 yaml_version: 6
