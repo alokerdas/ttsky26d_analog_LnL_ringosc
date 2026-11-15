@@ -1004,8 +1004,8 @@ rect 19506 0 19686 200
 rect 23370 0 23550 200
 rect 27230 190 27420 3930
 rect 27234 0 27420 190
-use bufamp  buffer ../../analog/magic
-timestamp 1794408150
+use bufamp  buffer ../../analog/magic/bufamp
+timestamp 1794741561
 transform 1 0 27344 0 1 580
 box -1720 -200 -170 14638
 use D_Mux16to1  ringosc ../../analog/magic/ringosc
