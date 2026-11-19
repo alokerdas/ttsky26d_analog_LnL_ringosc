@@ -100,7 +100,7 @@ MACRO tt_um_LnL_ringosc
   PIN ui_in[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.159000 ;
+    ANTENNAGATEAREA 0.879000 ;
     PORT
       LAYER met4 ;
         RECT 122.670 224.760 122.970 225.760 ;
@@ -109,7 +109,7 @@ MACRO tt_um_LnL_ringosc
   PIN ui_in[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.159000 ;
+    ANTENNAGATEAREA 0.879000 ;
     PORT
       LAYER met4 ;
         RECT 119.910 224.760 120.210 225.760 ;
@@ -118,7 +118,7 @@ MACRO tt_um_LnL_ringosc
   PIN ui_in[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.159000 ;
+    ANTENNAGATEAREA 1.359000 ;
     PORT
       LAYER met4 ;
         RECT 117.150 224.760 117.450 225.760 ;
@@ -127,7 +127,7 @@ MACRO tt_um_LnL_ringosc
   PIN ui_in[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.159000 ;
+    ANTENNAGATEAREA 1.659000 ;
     PORT
       LAYER met4 ;
         RECT 114.390 224.760 114.690 225.760 ;
@@ -136,7 +136,7 @@ MACRO tt_um_LnL_ringosc
   PIN ui_in[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 1.512000 ;
+    ANTENNAGATEAREA 1.887000 ;
     ANTENNADIFFAREA 0.470250 ;
     PORT
       LAYER met4 ;
@@ -146,7 +146,7 @@ MACRO tt_um_LnL_ringosc
   PIN ui_in[5]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 1.008000 ;
+    ANTENNAGATEAREA 1.383000 ;
     ANTENNADIFFAREA 0.470250 ;
     PORT
       LAYER met4 ;
@@ -156,7 +156,7 @@ MACRO tt_um_LnL_ringosc
   PIN ui_in[6]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.378000 ;
+    ANTENNAGATEAREA 0.753000 ;
     ANTENNADIFFAREA 0.470250 ;
     PORT
       LAYER met4 ;
@@ -166,7 +166,7 @@ MACRO tt_um_LnL_ringosc
   PIN ui_in[7]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.252000 ;
+    ANTENNAGATEAREA 0.627000 ;
     ANTENNADIFFAREA 0.470250 ;
     PORT
       LAYER met4 ;
@@ -176,6 +176,7 @@ MACRO tt_um_LnL_ringosc
   PIN uio_in[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 2.400000 ;
     PORT
       LAYER met4 ;
         RECT 100.590 224.760 100.890 225.760 ;
@@ -184,6 +185,7 @@ MACRO tt_um_LnL_ringosc
   PIN uio_in[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.960000 ;
     PORT
       LAYER met4 ;
         RECT 97.830 224.760 98.130 225.760 ;
@@ -240,6 +242,7 @@ MACRO tt_um_LnL_ringosc
   PIN uio_oe[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 195.214188 ;
     PORT
       LAYER met4 ;
         RECT 34.350 224.760 34.650 225.760 ;
@@ -248,6 +251,7 @@ MACRO tt_um_LnL_ringosc
   PIN uio_oe[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 195.214188 ;
     PORT
       LAYER met4 ;
         RECT 31.590 224.760 31.890 225.760 ;
@@ -368,6 +372,7 @@ MACRO tt_um_LnL_ringosc
   PIN uo_out[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.435000 ;
     PORT
       LAYER met4 ;
         RECT 78.510 224.760 78.810 225.760 ;
@@ -376,6 +381,7 @@ MACRO tt_um_LnL_ringosc
   PIN uo_out[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.435000 ;
     PORT
       LAYER met4 ;
         RECT 75.750 224.760 76.050 225.760 ;
@@ -384,6 +390,7 @@ MACRO tt_um_LnL_ringosc
   PIN uo_out[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.435000 ;
     PORT
       LAYER met4 ;
         RECT 72.990 224.760 73.290 225.760 ;
@@ -392,6 +399,7 @@ MACRO tt_um_LnL_ringosc
   PIN uo_out[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.435000 ;
     PORT
       LAYER met4 ;
         RECT 70.230 224.760 70.530 225.760 ;
@@ -455,15 +463,15 @@ MACRO tt_um_LnL_ringosc
   END VAPWR
   OBS
       LAYER nwell ;
-        RECT 110.360 1.900 135.830 213.740 ;
+        RECT 45.955 1.900 135.830 218.280 ;
       LAYER li1 ;
-        RECT 110.460 2.080 135.650 215.460 ;
+        RECT 46.135 2.080 135.650 218.100 ;
       LAYER met1 ;
-        RECT 94.400 2.400 135.370 223.600 ;
+        RECT 40.840 2.400 135.370 223.600 ;
       LAYER met2 ;
-        RECT 94.300 18.300 136.650 223.550 ;
+        RECT 40.815 18.300 136.650 224.100 ;
       LAYER met3 ;
-        RECT 94.300 19.550 136.650 223.700 ;
+        RECT 40.250 19.550 136.650 224.200 ;
       LAYER met4 ;
         RECT 15.730 224.360 17.390 225.075 ;
         RECT 18.490 224.360 20.150 225.075 ;
