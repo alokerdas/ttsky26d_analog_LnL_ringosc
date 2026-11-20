@@ -357,6 +357,7 @@ MACRO tt_um_LnL_ringosc
     END
   END VGND
   PIN VAPWR
+    USE POWER ;
     PORT
       LAYER met4 ;
         RECT 99.450 5.000 100.950 220.760 ;
