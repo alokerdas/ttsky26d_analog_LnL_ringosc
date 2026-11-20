@@ -56,7 +56,7 @@ pinout:
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
   ua[0]: "freq_out"
-  ua[1]: ""
+  ua[1]: "osc9_out"
   ua[2]: ""
   ua[3]: ""
   ua[4]: ""
