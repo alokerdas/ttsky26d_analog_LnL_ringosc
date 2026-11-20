@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1795179746
+timestamp 1795183130
 << metal1 >>
 rect 20640 44696 20730 44720
 rect 20640 44644 20654 44696
@@ -1713,7 +1713,7 @@ rect 16254 44952 16314 45152
 rect 16806 44952 16866 45152
 rect 17358 44952 17418 45152
 rect 17910 44952 17970 45152
-rect 18462 44970 18522 45152
+rect 18462 44952 18522 45152
 rect 19014 44970 19074 45152
 rect 15680 44653 15693 44717
 rect 15757 44653 15770 44717
@@ -1954,7 +1954,7 @@ rect 19506 0 19686 200
 rect 23370 0 23550 520
 rect 27230 190 27420 3933
 rect 27234 0 27420 190
-use bufamp  buffer
+use bufamp  buffer ../../analog/magic/bufamp
 timestamp 1794741561
 transform 1 0 27344 0 1 580
 box -1720 -200 -170 14638
@@ -1962,12 +1962,12 @@ use m8  m8_0 ../../fabulous/chipx
 timestamp 1795169447
 transform 1 0 21940 0 1 34320
 box 130 -2350 2680 2760
-use D_Mux16to1  ringosc
+use D_Mux16to1  ringosc ../../analog/magic/ringosc
 timestamp 1794472618
 transform 0 -1 21546 1 0 39728
 box -2208 -3332 3519 -360
-use sram_4x4_top  sram_4x4_top_0
-timestamp 1795088864
+use sram_4x4_top  sram_4x4_top_0 ../../fabulous/TECH_TITANS
+timestamp 1795185156
 transform -1 0 15462 0 -1 38243
 box -2982 -5800 7412 6753
 << labels >>
