@@ -342,6 +342,7 @@ MACRO tt_um_LnL_ringosc
     END
   END uo_out[7]
   PIN VDPWR
+    USE POWER ;
     ANTENNADIFFAREA 225.752991 ;
     PORT
       LAYER met4 ;
