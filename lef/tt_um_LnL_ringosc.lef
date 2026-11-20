@@ -34,7 +34,6 @@ MACRO tt_um_LnL_ringosc
     END
   END ua[0]
   PIN ua[1]
-    ANTENNAGATEAREA 0.300000 ;
     ANTENNADIFFAREA 0.580000 ;
     PORT
       LAYER met4 ;
@@ -42,12 +41,15 @@ MACRO tt_um_LnL_ringosc
     END
   END ua[1]
   PIN ua[2]
+    ANTENNAGATEAREA 0.150000 ;
     PORT
       LAYER met4 ;
         RECT 97.530 0.000 98.430 1.000 ;
     END
   END ua[2]
   PIN ua[3]
+    ANTENNAGATEAREA 0.300000 ;
+    ANTENNADIFFAREA 0.580000 ;
     PORT
       LAYER met4 ;
         RECT 78.210 0.000 79.110 1.000 ;
@@ -193,14 +195,14 @@ MACRO tt_um_LnL_ringosc
     END
   END uio_in[7]
   PIN uio_oe[0]
-    ANTENNADIFFAREA 221.297394 ;
+    ANTENNADIFFAREA 262.153381 ;
     PORT
       LAYER met4 ;
         RECT 34.350 224.760 34.650 225.760 ;
     END
   END uio_oe[0]
   PIN uio_oe[1]
-    ANTENNADIFFAREA 221.297394 ;
+    ANTENNADIFFAREA 262.153381 ;
     PORT
       LAYER met4 ;
         RECT 31.590 224.760 31.890 225.760 ;
@@ -298,6 +300,7 @@ MACRO tt_um_LnL_ringosc
     END
   END uo_out[0]
   PIN uo_out[1]
+    ANTENNADIFFAREA 0.435000 ;
     PORT
       LAYER met4 ;
         RECT 75.750 224.760 76.050 225.760 ;
@@ -343,14 +346,15 @@ MACRO tt_um_LnL_ringosc
     END
   END uo_out[7]
   PIN VDPWR
+    DIRECTION INPUT ;
     USE POWER ;
-    ANTENNADIFFAREA 241.337387 ;
     PORT
       LAYER met4 ;
         RECT 92.850 5.000 94.850 220.760 ;
     END
   END VDPWR
   PIN VGND
+    DIRECTION INPUT ;
     USE GROUND ;
     PORT
       LAYER met4 ;
@@ -358,6 +362,7 @@ MACRO tt_um_LnL_ringosc
     END
   END VGND
   PIN VAPWR
+    DIRECTION INPUT ;
     USE POWER ;
     PORT
       LAYER met4 ;
