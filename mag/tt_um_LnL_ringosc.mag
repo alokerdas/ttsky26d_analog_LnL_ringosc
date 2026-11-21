@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1795233813
+timestamp 1795246353
 << metal1 >>
 rect 20640 44696 20730 44720
 rect 13500 44680 13560 44690
@@ -243,6 +243,10 @@ rect 21180 1060 21270 1110
 rect 15640 970 21270 1060
 rect 15640 630 15720 970
 rect 22380 890 22460 5210
+rect 24068 4410 24150 4422
+rect 24068 4350 24080 4410
+rect 24140 4350 24150 4410
+rect 24068 4340 24150 4350
 rect 15640 570 15650 630
 rect 15710 570 15720 630
 rect 19610 810 22460 890
@@ -2093,6 +2097,10 @@ use bufamp  buffer ../../analog/magic/bufamp
 timestamp 1794741561
 transform 1 0 27344 0 1 580
 box -1720 -200 -170 14638
+use cdacc  cdacc_0 ../../fabulous/The_XORcists
+timestamp 1795246022
+transform 0 -1 -94775 1 0 5526
+box -4020 -112864 15638 -103067
 use m8  m8_0 ../../fabulous/chipx
 timestamp 1795169447
 transform 1 0 21940 0 1 34320
@@ -2109,10 +2117,6 @@ use sram_4x4_top  sram_4x4_top_0 ../../fabulous/TECH_TITANS
 timestamp 1795203311
 transform -1 0 15462 0 -1 38243
 box -2982 -5800 7412 6753
-use vco_fin  vco_fin_0 ../../fabulous/BrainToBits
-timestamp 1795233247
-transform 0 1 25346 -1 0 6006
-box 738 -2791 4936 580
 << labels >>
 flabel metal4 s 25638 44952 25698 45152 0 FreeSans 750 90 0 0 clk
 port 1 nsew
