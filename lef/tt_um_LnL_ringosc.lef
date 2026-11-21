@@ -195,14 +195,14 @@ MACRO tt_um_LnL_ringosc
     END
   END uio_in[7]
   PIN uio_oe[0]
-    ANTENNADIFFAREA 262.153381 ;
+    ANTENNADIFFAREA 254.982788 ;
     PORT
       LAYER met4 ;
         RECT 34.350 224.760 34.650 225.760 ;
     END
   END uio_oe[0]
   PIN uio_oe[1]
-    ANTENNADIFFAREA 262.153381 ;
+    ANTENNADIFFAREA 254.982788 ;
     PORT
       LAYER met4 ;
         RECT 31.590 224.760 31.890 225.760 ;
