@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1795203680
+timestamp 1795229015
 << metal1 >>
 rect 20640 44696 20730 44720
 rect 13500 44680 13560 44690
@@ -2110,7 +2110,7 @@ timestamp 1795203311
 transform -1 0 15462 0 -1 38243
 box -2982 -5800 7412 6753
 use vco_fin  vco_fin_0 ../../fabulous/BrainToBits
-timestamp 1795203680
+timestamp 1795229015
 transform 0 1 25346 -1 0 6006
 box 738 -3036 4936 554
 << labels >>
