@@ -11,7 +11,7 @@ project:
   tiles: "1x2"          # Valid values for analog projects: 1x2, 2x2
 
   # How many analog pins does your project use?
-  analog_pins: 4        # Valid values: 0 to 6
+  analog_pins: 5        # Valid values: 0 to 6
   uses_vapwr: true       # Set to true if your project uses second analog power supply (VAPWR) in addition to 1.8V (VDPWR)
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
@@ -35,11 +35,11 @@ pinout:
   ui[7]: "bypass3"
 
   # Outputs
-  uo[0]: "Grounded"
-  uo[1]: "Grounded"
-  uo[2]: "Grounded"
-  uo[3]: "Grounded"
-  uo[4]: "Grounded"
+  uo[0]: "sram_dout0"
+  uo[1]: "sram_dout1"
+  uo[2]: "sram_dout2"
+  uo[3]: "sram_dout3"
+  uo[4]: "mux8x1_out"
   uo[5]: "Grounded"
   uo[6]: "Grounded"
   uo[7]: "Grounded"
@@ -59,7 +59,7 @@ pinout:
   ua[1]: "vcofin"
   ua[2]: "vctrl"
   ua[3]: "osc9_out"
-  ua[4]: ""
+  ua[4]: "dac_out"
   ua[5]: ""
 
 # Do not change!
