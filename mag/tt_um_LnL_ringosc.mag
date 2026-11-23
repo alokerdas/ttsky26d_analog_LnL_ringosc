@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1795445747
+timestamp 1795342497
 << metal1 >>
 rect 20640 44696 20730 44720
 rect 13500 44680 13560 44690
@@ -2472,10 +2472,6 @@ rect 19506 0 19686 190
 rect 23370 0 23550 520
 rect 27230 190 27420 3933
 rect 27234 0 27420 190
-use 1_SAR_ADC_layout  1_SAR_ADC_layout_0 ../../fabulous/YinYang
-timestamp 1795444692
-transform 0 1 885 -1 0 30169
-box -14356 -3185 29879 7378
 use bufamp  buffer ../../analog/magic/bufamp
 timestamp 1794741561
 transform 1 0 27344 0 1 580
@@ -2489,7 +2485,7 @@ timestamp 1795169447
 transform 1 0 21940 0 1 34320
 box 130 -2350 2680 2760
 use ring_osc_9  ring_osc_9_0 ../../fabulous/NIRMAN
-timestamp 1795445747
+timestamp 1794891952
 transform 0 1 22160 -1 0 390
 box -6660 -1700 -640 -170
 use D_Mux16to1  ringosc ../../analog/magic/ringosc
