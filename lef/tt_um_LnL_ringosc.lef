@@ -153,7 +153,7 @@ MACRO tt_um_LnL_ringosc
     END
   END uio_in[0]
   PIN uio_in[1]
-    ANTENNAGATEAREA 1.200000 ;
+    ANTENNAGATEAREA 2.160000 ;
     PORT
       LAYER met4 ;
         RECT 97.830 224.760 98.130 225.760 ;
@@ -197,7 +197,6 @@ MACRO tt_um_LnL_ringosc
     END
   END uio_in[7]
   PIN uio_oe[0]
-    ANTENNAGATEAREA 0.960000 ;
     ANTENNADIFFAREA 351.216248 ;
     PORT
       LAYER met4 ;
@@ -205,7 +204,6 @@ MACRO tt_um_LnL_ringosc
     END
   END uio_oe[0]
   PIN uio_oe[1]
-    ANTENNAGATEAREA 0.960000 ;
     ANTENNADIFFAREA 351.216248 ;
     PORT
       LAYER met4 ;
@@ -213,7 +211,6 @@ MACRO tt_um_LnL_ringosc
     END
   END uio_oe[1]
   PIN uio_oe[2]
-    ANTENNAGATEAREA 0.960000 ;
     ANTENNADIFFAREA 351.216248 ;
     PORT
       LAYER met4 ;
@@ -221,7 +218,6 @@ MACRO tt_um_LnL_ringosc
     END
   END uio_oe[2]
   PIN uio_oe[3]
-    ANTENNAGATEAREA 0.960000 ;
     ANTENNADIFFAREA 351.216248 ;
     PORT
       LAYER met4 ;
@@ -229,7 +225,6 @@ MACRO tt_um_LnL_ringosc
     END
   END uio_oe[3]
   PIN uio_oe[4]
-    ANTENNAGATEAREA 0.960000 ;
     ANTENNADIFFAREA 351.216248 ;
     PORT
       LAYER met4 ;
@@ -237,7 +232,6 @@ MACRO tt_um_LnL_ringosc
     END
   END uio_oe[4]
   PIN uio_oe[5]
-    ANTENNAGATEAREA 0.960000 ;
     ANTENNADIFFAREA 351.216248 ;
     PORT
       LAYER met4 ;
@@ -245,7 +239,6 @@ MACRO tt_um_LnL_ringosc
     END
   END uio_oe[5]
   PIN uio_oe[6]
-    ANTENNAGATEAREA 0.960000 ;
     ANTENNADIFFAREA 351.216248 ;
     PORT
       LAYER met4 ;
@@ -253,7 +246,6 @@ MACRO tt_um_LnL_ringosc
     END
   END uio_oe[6]
   PIN uio_oe[7]
-    ANTENNAGATEAREA 0.960000 ;
     ANTENNADIFFAREA 351.216248 ;
     PORT
       LAYER met4 ;
@@ -261,7 +253,6 @@ MACRO tt_um_LnL_ringosc
     END
   END uio_oe[7]
   PIN uio_out[0]
-    ANTENNAGATEAREA 0.960000 ;
     ANTENNADIFFAREA 351.216248 ;
     PORT
       LAYER met4 ;
@@ -269,7 +260,6 @@ MACRO tt_um_LnL_ringosc
     END
   END uio_out[0]
   PIN uio_out[1]
-    ANTENNAGATEAREA 0.960000 ;
     ANTENNADIFFAREA 351.216248 ;
     PORT
       LAYER met4 ;
@@ -277,7 +267,6 @@ MACRO tt_um_LnL_ringosc
     END
   END uio_out[1]
   PIN uio_out[2]
-    ANTENNAGATEAREA 0.960000 ;
     ANTENNADIFFAREA 351.216248 ;
     PORT
       LAYER met4 ;
@@ -285,7 +274,6 @@ MACRO tt_um_LnL_ringosc
     END
   END uio_out[2]
   PIN uio_out[3]
-    ANTENNAGATEAREA 0.960000 ;
     ANTENNADIFFAREA 351.216248 ;
     PORT
       LAYER met4 ;
@@ -293,7 +281,6 @@ MACRO tt_um_LnL_ringosc
     END
   END uio_out[3]
   PIN uio_out[4]
-    ANTENNAGATEAREA 0.960000 ;
     ANTENNADIFFAREA 351.216248 ;
     PORT
       LAYER met4 ;
@@ -301,7 +288,6 @@ MACRO tt_um_LnL_ringosc
     END
   END uio_out[4]
   PIN uio_out[5]
-    ANTENNAGATEAREA 0.960000 ;
     ANTENNADIFFAREA 351.216248 ;
     PORT
       LAYER met4 ;
@@ -309,7 +295,6 @@ MACRO tt_um_LnL_ringosc
     END
   END uio_out[5]
   PIN uio_out[6]
-    ANTENNAGATEAREA 0.960000 ;
     ANTENNADIFFAREA 351.216248 ;
     PORT
       LAYER met4 ;
@@ -317,7 +302,6 @@ MACRO tt_um_LnL_ringosc
     END
   END uio_out[6]
   PIN uio_out[7]
-    ANTENNAGATEAREA 0.960000 ;
     ANTENNADIFFAREA 351.216248 ;
     PORT
       LAYER met4 ;
@@ -367,13 +351,13 @@ MACRO tt_um_LnL_ringosc
     END
   END uo_out[5]
   PIN uo_out[6]
+    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met4 ;
         RECT 61.950 224.760 62.250 225.760 ;
     END
   END uo_out[6]
   PIN uo_out[7]
-    ANTENNAGATEAREA 0.960000 ;
     ANTENNADIFFAREA 351.216248 ;
     PORT
       LAYER met4 ;
@@ -410,9 +394,9 @@ MACRO tt_um_LnL_ringosc
       LAYER li1 ;
         RECT 35.170 2.080 135.650 218.100 ;
       LAYER met1 ;
-        RECT 35.150 2.300 135.370 223.600 ;
+        RECT 35.170 2.300 135.370 223.600 ;
       LAYER met2 ;
-        RECT 35.150 2.300 136.650 224.000 ;
+        RECT 35.175 2.300 136.650 224.000 ;
       LAYER met3 ;
         RECT 35.175 2.200 136.650 224.200 ;
       LAYER met4 ;

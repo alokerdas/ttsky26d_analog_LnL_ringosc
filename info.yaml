@@ -25,14 +25,14 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "prog1"
-  ui[1]: "prog2"
-  ui[2]: "prog2"
-  ui[3]: "prog2"
-  ui[4]: "bypass0"
-  ui[5]: "bypass1"
-  ui[6]: "bypass2"
-  ui[7]: "bypass3"
+  ui[0]: "prog0_m8I0_srmA0"
+  ui[1]: "prog1_m8I1_srmA1"
+  ui[2]: "prog2_m8I2_srmwe"
+  ui[3]: "prog3_m8I3_srmpreb"
+  ui[4]: "bypass0_m8I4_srmD0"
+  ui[5]: "bypass1_m8I5_srmD1"
+  ui[6]: "bypass2_m8I6_srmD2"
+  ui[7]: "bypass3_m8I7_srmD3"
 
   # Outputs
   uo[0]: "sram_dout0"
@@ -41,13 +41,13 @@ pinout:
   uo[3]: "sram_dout3"
   uo[4]: "mux8x1_out"
   uo[5]: "out_div128"
-  uo[6]: "out_div128"
+  uo[6]: "out_div256"
   uo[7]: "Grounded"
 
   # Bidirectional pins
-  uio[0]: "DACin0"
-  uio[1]: "DACin1"
-  uio[2]: "DACin2"
+  uio[0]: "DACin0_m8S0_srmsae"
+  uio[1]: "DACin1_m8S1_srmwlen"
+  uio[2]: "DACin2_m8S2"
   uio[3]: "DACin3"
   uio[4]: "DACin4"
   uio[5]: "DACin5"
@@ -56,8 +56,8 @@ pinout:
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
   ua[0]: "freq_out"
-  ua[1]: "vcofin"
-  ua[2]: "vctrl"
+  ua[1]: "vcofin_out"
+  ua[2]: "vco_vdiv_ctrl_in"
   ua[3]: "osc9_out"
   ua[4]: "dac_out"
   ua[5]: ""
